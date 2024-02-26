@@ -9,9 +9,9 @@ body {
     flex-direction: column;
 }
 .hero {    
-        background-color: #1F2937;
-        padding: 10px 20px;
-    }
+    background-color: #1F2937;
+    padding: 10px 20px;
+}
 
 .header {
     display: flex;
@@ -54,6 +54,7 @@ h1 {
 
 button {
     background-color: #3882F6;
+    font-size: 18px;
     color: white;
     padding: 8px 24px;
     border-radius: 8px;
@@ -89,6 +90,7 @@ button {
 
 .body img {
     width: 170px;
+    border-radius: 8px;
     height: auto;
     flex-shrink: 0;
 }
@@ -130,17 +132,41 @@ button {
     margin-top: 10px;
 }
 
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 96px;
+}
+
+.action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 96px;
+    gap: 64px;
+}
+
+.action button {
+    border-color: white;
+}
+
+.text4 {
+    color: white;
+    font-size: 18px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
     padding: 24px;
 }
-/*
-button
-#3882F6
-
-Quote
-#E5E7EB
-36px light italic #1F2937
-*/
