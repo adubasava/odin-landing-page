@@ -2,6 +2,8 @@
 
 body {
     font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 .hero {    
         background-color: #1F2937;
@@ -41,8 +43,7 @@ h1 {
     margin-bottom: 0;
 }
 
-.text {
-    color: white;
+.text {    
     font-size: 18px;
     color: #E5E7EB;
     margin: 10px 5px;
@@ -51,12 +52,12 @@ h1 {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 24px;
     border-radius: 8px;
     border-color: #3882F6;
 }
 
-img {
+.image img {
     width: auto;
     height: 200px;
     flex-shrink: 0;
@@ -68,6 +69,36 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 64px;
+}
+
+.second {
+    text-align: center;
+}
+
+.title {
+    margin: 30px 0;
+    font-size: 36px;   
+    font-weight: 800; 
+    color: #1F2937;
+}
+
+.body img {
+    width: 170px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 96px;
+} 
+
+.text2 {
+    font-size: 18px;
+    color: #5d5d5f;
+    width: 170px;
 }
 
 .footer {
