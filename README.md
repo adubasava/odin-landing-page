@@ -1,8 +1,8 @@
-﻿# Second Odin Project
+﻿# Second Odin Project (Landing Page)
 
-To practice CSS
+For practicing CSS (Flexbox in particular)
 
-Images from:
+### Images from:
 
 https://pixabay.com/photos/cat-animal-mammal-domestic-animal-8540772/
 
